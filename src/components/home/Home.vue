@@ -9,7 +9,7 @@
       class="svg-icon"
       :class="{
         'svg-icon-20-streak': lovePressed > 20,
-        'svg-icon-60-streak': lovePressed > 40,
+        'svg-icon-60-streak': lovePressed > 60,
       }"
       viewBox="0 0 20 20"
       @click="incrementCounter()"
