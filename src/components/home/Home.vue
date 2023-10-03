@@ -42,6 +42,7 @@ class Home extends Vue {
       if (this.counter == 0) {
         this.getCurrentLove();
         this.sendLoveToDb();
+        this.getCurrentLove();
         this.counter = 10;
         this.lovePressed = 0;
       }
